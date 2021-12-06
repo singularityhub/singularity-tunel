@@ -1,8 +1,9 @@
-# Tunel
+# Singularity Tunel
 
 Application and general cluster tools using Singularity containers.
 
 ## Introduction
+
 Manager and recipe generator for local Singularity containers
 
 ## Deployment
@@ -10,8 +11,8 @@ You should clone the repo, and build the container (or you can also just clone a
 
 
 ```bash
-git clone https://www.github.com/vsoch/tunel
-cd tunel
+git clone https://github.com/singularityhub/singularity-tunel
+cd singularity-tunel
 docker build -t vanessa/tunel .
 ```
 
